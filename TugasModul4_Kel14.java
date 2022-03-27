@@ -52,3 +52,26 @@ class TugasModul4_Kel14 {
                                         int inputUAS_IPS = input.nextInt();
                                         hasil_IPS = hitung(inputTugas_IPS, inputUTS_IPS, inputUAS_IPS);
                                         break;
+
+					                           case 5:
+                                        printNilai("Bahasa Inggris");
+                                        System.out.print("Tugas : ");
+                                        int inputTugas_BIN = input.nextInt();
+                                        System.out.print("UTS   : ");
+                                        int inputUTS_BIN = input.nextInt();
+                                        System.out.print("UAS   : ");
+                                        int inputUAS_BIN = input.nextInt();
+                                        hasil_BIN = hitung(inputTugas_BIN, inputUTS_BIN, inputUAS_BIN);
+                                        break;
+
+                        }
+                }
+                System.out.println("\nRaport Nilai Akhir Semester Anda ");
+                System.out.println("IPA = " + hasil_IPA);
+                System.out.println("IPS = " + hasil_IPS);
+                System.out.println("MATEMATIKA = " + hasil_MAT);
+                System.out.println("B.INGGRIS = " + hasil_BI);
+                System.out.println("B.INDONESIA = " + hasil_BIN);
+
+        }
+}
