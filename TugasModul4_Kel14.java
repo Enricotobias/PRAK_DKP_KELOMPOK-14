@@ -53,25 +53,25 @@ class TugasModul4_Kel14 {
                                         hasil_IPS = hitung(inputTugas_IPS, inputUTS_IPS, inputUAS_IPS);
                                         break;
 
-					                           case 5:
-                                        printNilai("Bahasa Inggris");
+					
+				case 3:
+                                        printNilai("Matematika");
                                         System.out.print("Tugas : ");
-                                        int inputTugas_BIN = input.nextInt();
+                                        int inputTugas_MAT = input.nextInt();
                                         System.out.print("UTS   : ");
-                                        int inputUTS_BIN = input.nextInt();
+                                        int inputUTS_MAT = input.nextInt();
                                         System.out.print("UAS   : ");
-                                        int inputUAS_BIN = input.nextInt();
-                                        hasil_BIN = hitung(inputTugas_BIN, inputUTS_BIN, inputUAS_BIN);
+                                        int inputUAS_MAT = input.nextInt();
+                                        hasil_MAT = hitung(inputTugas_MAT, inputUTS_MAT, inputUAS_MAT);
                                         break;
 
-                        }
-                }
-                System.out.println("\nRaport Nilai Akhir Semester Anda ");
-                System.out.println("IPA = " + hasil_IPA);
-                System.out.println("IPS = " + hasil_IPS);
-                System.out.println("MATEMATIKA = " + hasil_MAT);
-                System.out.println("B.INGGRIS = " + hasil_BI);
-                System.out.println("B.INDONESIA = " + hasil_BIN);
-
-        }
-}
+                                case 4:
+                                        printNilai("Bahasa Indonesia");
+                                        System.out.print("Tugas : ");
+                                        int inputTugas_BI = input.nextInt();
+                                        System.out.print("UTS   : ");
+                                        int inputUTS_BI = input.nextInt();
+                                        System.out.print("UAS   : ");
+                                        int inputUAS_BI = input.nextInt();
+                                        hasil_BI = hitung(inputTugas_BI, inputUTS_BI, inputUAS_BI);
+                                        break;
