@@ -16,6 +16,9 @@ class TugasModul4_Kel14 {
         public static void printNilai (String pelajaran){
                 System.out.println("\nMasukkan nilai pelajaran " + pelajaran + " anda (0-100)");
         }
+        static String cetakRapor () {
+                return "\nRapor Nilai Akhir Semester Anda : " ;
+        }
 
         public static void main(String[] args) {
                 int[] nilai = new int[6];
