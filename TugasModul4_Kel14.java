@@ -91,8 +91,8 @@ class TugasModul4_Kel14 {
                 System.out.println(cetakRapor());
                 System.out.println("IPA = " + hasil_IPA);
                 System.out.println("IPS = " + hasil_IPS);
-                System.out.println("IPA = " + hasil_MAT);
-                System.out.println("IPA = " + hasil_BI);
-                System.out.println("IPA = " + hasil_BIN);
+                System.out.println("Matematika = " + hasil_MAT);
+                System.out.println("Bahasa Indonesia = " + hasil_BI);
+                System.out.println("Bahasa Inggris  = " + hasil_BIN);
         }
 }
